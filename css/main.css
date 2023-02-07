@@ -29,31 +29,37 @@ body{
     }
 a {
     text-decoration: none;
-
 }
+
 header {
     width: 100%;
     display: grid;
     grid-template-rows: 50px 90px;
   }
-  
   header .header-icons-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     background: linear-gradient(207.8deg, #201e1c 16.69%, #757575 100%);
     justify-content: flex-end;
     align-items: center;  
   }
-  
   header .header-icons-container .icons {
     margin-right: 50px;
-    
+  } 
+  header .icons span {
+    color: var(--just-white);
   }
-  
-  .icons a {
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem; 
-    color: var(--off-white);
+  header nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
+  header nav .nav-logo-container {
+    margin-left: 50px;
+  }
+header nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
 
