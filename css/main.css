@@ -94,14 +94,14 @@
 
   .home-main {
     height: 100%;
-    background-image: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     justify-items: center;
     align-items: center;
+    background-image: url('../assets/img/pexels-philippe-donn-medium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .home-main section {
     display: grid;
@@ -110,7 +110,6 @@
     align-items: center;
 
   }
-
   .home-main-text {
     font-size: 40px;
     font-weight: 700;
