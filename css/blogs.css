@@ -2,7 +2,7 @@
     --font-small: 1.2rem;
     --font-medium: 1.4rem;
     --font-laarge: 1.6rem;
-    --color-prymary: #0e1ac2;
+    --color-prymary: #b73052;
     --warm-black: #201e1c;
     --black: #282623;
     --gray: #bababa;
@@ -19,22 +19,14 @@
   html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    color: var(--off-white);
   }
-  body {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+
   a {
     text-decoration: none;
   }
   
   header {
-    position: absolute;
-    width: 100%;
-    height: 85px;
     display: grid;
     grid-template-rows: 1fr;
     background-color: black;
@@ -42,7 +34,6 @@
   header nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 90px;
     align-items: center;
   }
   .nav-logo-container img {
@@ -84,57 +75,32 @@
     /* box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.9); */
   }
   
-  main {
-    height: 100%;
+  .blogs-main {
+    display: grid;
+    background-color: var(--warm-black);
+  }
+  .blogs-news-container {
     background-color: var(--black);
+    padding: 20px 50px 40px;
+
   }
-
-
-
-  
-  .home-main {
-    height: 100%;
+  .blogs-main-news{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    justify-items: center;
-    align-items: center;
-    background-image: url("../assets/img/pexels-philippe-donn-medium.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+  } 
+
+  .blogs-news-img-container {
+    grid-column: 1;
   }
-  .home-main section {
-    display: grid;
+  .blogs-news-img-container img {
+    width: 85px;
+  }
+  .blogs-news-info-container {
     grid-column: 2;
-    justify-items: center;
-    align-items: center;
   }
-  .home-main-text {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #fff;
-    text-shadow: 0 0 5px #b73052;
-    text-align: center;
+  .blogs-news-info-container p {
+    margin-bottom: 35px;
   }
-  .home-main-button {
-    width: 150px;
-    height: 48px;
-    margin-top: 20px;
-    background-color: #b73052;
-    border: none;
-    /* border: 2px solid #b73052; */
-    border-radius: 50px;
-  }
-  .home-main-button a {
-    font-family: "DM Sans", sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: var(--just-white);
-  }
-  .home-main-button:hover {
-    box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.9);
-  }
+  
   
