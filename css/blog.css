@@ -1,0 +1,59 @@
+@import url("mainStyles.css");
+
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+  a {
+    color: var(--off-white);
+  }
+  
+  header {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: black;
+  }
+  header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .nav-logo-container img {
+    height: 85px;
+    filter: invert(100%);
+  }
+  
+  header nav .profile-link {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav .profile-link a {
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--off-white);
+    border-bottom: 1px solid var(--off-white);
+  }
+  nav .profile-link span:hover {
+    color: #b73052;
+    border-bottom: 1px solid #b73052;
+  }
+  
+  .icons-container {
+    position: fixed;
+    top: 70%;
+  }
+  .icons-container .icons {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .icons span {
+    color: var(--just-white);
+  }
+  .icons span:hover {
+    color: #b73052;
+    /* box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.9); */
+  }
+  
