@@ -1,6 +1,7 @@
 @import url("mainStyles.css");
 
 .grid-container {
+  background-color: var(--black);
   max-width: 980px;
   margin: auto;
 }
@@ -57,3 +58,23 @@
     /* box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.9); */
   }
   
+main {
+  background-color: var(--warm-black);
+}
+.grid-container h1 {
+  padding: 20px;
+}
+  .blogpost-img-container {
+    padding: 0 50px 40px;
+  }
+  .blogpost-img-container img {
+    width: 100%;
+  }
+  .blogpost-main-container {
+    padding: 0 50px 40px;
+  }
+  .blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+  }
+
