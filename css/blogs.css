@@ -80,7 +80,7 @@
         "photo  text"
         "photo  text"
     ;
-    font-size: var(--font-large);
+    font-size: 1.8rem;
   } 
   .blog-main-news h3{
     padding: 10px 10px 0 10px;
@@ -109,7 +109,7 @@
     
     color: white;
     font-family: "DM Sans", sans-serif;
-    font-size: var(--font-medium);
+    font-size: 1.4rem;
   }
   .blogs-post-container{
     /* padding: 0 50px 40px; */
