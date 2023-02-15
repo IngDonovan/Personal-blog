@@ -86,14 +86,14 @@ main {
 
   .contact-main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     min-height: 250px;
     background-color: #484949;
     text-align: center;
     padding-bottom: 10px;
-    font-size: var(--font-medium);
+    font-size: var(--font-small);
   }
   .contact-main-container div {
     display: flex;
