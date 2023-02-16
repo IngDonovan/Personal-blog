@@ -126,7 +126,6 @@
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 10px;
     /* max-width: 980px; */
-    
     justify-content: center;
   }
 .blogs-post-container .post-container {
